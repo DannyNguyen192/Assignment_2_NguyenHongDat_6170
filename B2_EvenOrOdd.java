@@ -8,6 +8,11 @@ public class B2_EvenOrOdd {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter a number: ");
         int n = sc.nextInt();
-        System.out.println(n % 2 == 0 ? "Even number" : "Odd number");
+//        System.out.println(n % 2 == 0 ? "Even number" : "Odd number");
+        if (n % 2 == 0) {
+            System.out.println("Even number");
+        } else {
+            System.out.println("Odd number");
+        }
     }
 }
