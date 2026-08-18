@@ -8,7 +8,12 @@ public class B3_PassOrFailed {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter grade: ");
         double grade = sc.nextDouble();
-        System.out.println(grade >= 5.0 ? "Pass" : "Failed");
+//        System.out.println(grade >= 5.0 ? "Pass" : "Failed");
+        if (grade >= 5.0) {
+            System.out.println("Pass");
+        } else {
+            System.out.println("Failed");
+        }
     }
 
 }
