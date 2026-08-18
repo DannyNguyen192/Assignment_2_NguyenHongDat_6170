@@ -8,7 +8,7 @@ public class B1_Pos_Neg {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter a number: ");
         int n = sc.nextInt();
-//        System.out.println(n > 0 ? "Positive number" : (n < 0 ? "Nengative number" : "zero"));
+//        System.out.println(n > 0 ? "Positive number" : (n < 0 ? "Negative number" : "zero"));
         if (n > 0) {
             System.out.println("Positive number");
         } else if (n < 0) {
